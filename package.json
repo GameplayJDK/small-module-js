@@ -1,0 +1,22 @@
+{
+  "name": "small-module-js",
+  "version": "1.0.0",
+  "description": "Easy to use and small module script for in-browser usage.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameplayJDK/small-module-js.git"
+  },
+  "author": "GameplayJDK <github@gameplayjdk.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GameplayJDK/small-module-js/issues"
+  },
+  "homepage": "https://github.com/GameplayJDK/small-module-js#readme"
+}
