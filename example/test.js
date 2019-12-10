@@ -27,7 +27,7 @@ Module('App.Test', (function () {
     }
 
     function registerEvent() {
-        container.click(handleClick);
+        container.addEventListener('click', handleClick);
     }
 
     // Do everything for initialization:

@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/GameplayJDK/small-module-js/issues"
   },
-  "homepage": "https://github.com/GameplayJDK/small-module-js#readme"
+  "homepage": "https://github.com/GameplayJDK/small-module-js#readme",
+  "keywords": [
+    "small",
+    "module",
+    "browser"
+  ]
 }
