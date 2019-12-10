@@ -1,6 +1,6 @@
 {
   "name": "small-module-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy to use and small module script for in-browser usage.",
   "main": "index.js",
   "directories": {
