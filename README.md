@@ -10,7 +10,31 @@ npm install --save small-module-js
 
 ## Usage
 
-You can find an example module in `example/test.js`.
+```js
+
+Module('App.Test', (function () {
+    // Set variables for the scope:
+    var container = document.querySelector('div#container');
+
+    function handleClick(event) {
+        console.log(event);
+    }
+
+    function registerEvent() {
+        container.addEventListener('click', handleClick);
+    }
+
+    // Do everything for initialization:
+    function initialize() {
+        registerEvent();
+    }
+
+    return {
+        initialize: initialize,
+    };
+}));
+
+```
 
 ## License
 
