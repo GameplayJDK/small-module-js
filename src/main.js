@@ -18,8 +18,6 @@
 
 'use strict';
 
-var debug = true;
-
 var App = {};
 
 var Module = (function (path, callback) {
